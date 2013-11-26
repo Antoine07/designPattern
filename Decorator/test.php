@@ -4,7 +4,7 @@
  * 
  * Exemple simple de design pattern decorator, une classe Pen et ses classes "decorators"
  * 
- * Une classe Pen est décoré par des classes si besoin, pour que tout fonctionne correctement il faut mettre en place:
+ * Une classe Pen est décorée par des classes si besoin, pour que tout fonctionne correctement il faut mettre en place:
  * un contrat que les classes doivent suivrent et factoriser le code nécessaire dans une classe abstraite. Tout ceci donne le design pattern "decorator"
  */
 
