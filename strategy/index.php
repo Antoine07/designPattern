@@ -10,7 +10,7 @@ spl_autoload_register(
 (new A(new AlgorithmeA))->getUse('val1', 'val2');
 (new A(new AlgorithmeB))->getUse('val1', 'val2');
 
-// and for B use facotoring alogorithme it's now with so easy with this pattern
+// and for B use facotoring algorythme it's now with so easy with this pattern
 (new B(new AlgorithmeA))->getUse('val1', 'val2');
 (new B(new AlgorithmeB))->getUse('val1', 'val2');
 
