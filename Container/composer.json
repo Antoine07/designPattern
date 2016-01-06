@@ -9,14 +9,15 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.4.0",
+        "php": ">=5.6.0",
         "symfony/yaml": "~3.0@dev"
     },
     "require-dev": {
     },
     "autoload": {
         "psr-4": {
-            "": ["ContainerService/", "tests/"]
+            "IoC\\": [ "IoC/"],
+            "" : "tests/"
         }
     }
 }
