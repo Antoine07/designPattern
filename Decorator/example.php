@@ -29,7 +29,7 @@ abstract class HtmlDecorator implements HtmlElement
     public function getName() {
         return $this->element->getName();
     }
-   
+
 }
 class LabelDecorator extends HtmlDecorator
 {
